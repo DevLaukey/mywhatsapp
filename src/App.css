@@ -1,0 +1,23 @@
+* {}
+
+.app {
+    display: grid;
+    place-items: center;
+    background-color: #091691;
+    height: 100vh;
+}
+
+.app_body {
+    display: flex;
+    background-color: #e2d1d1;
+    margin-top: -50px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(255, 248, 248, 0);
+}
+
+@media (max-width: 480px) {
+    .app_body {
+        height: 700px;
+    }
+}
